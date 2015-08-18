@@ -1,0 +1,31 @@
+{
+  "name": "stretch-flags",
+  "version": "1.0.1",
+  "authors": [
+    "Dustin Dwyer <01blur6@gmail.com>"
+  ],
+  "description": "An element used to repeat though and display a list of json objects containing country flag properties.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "seed"
+  ],
+  "main": "stretch-flags.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/dustindwyer/stretch-flags/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-ajax": "PolymerElements/iron-ajax",
+    "stretch-flag": "dustindwyer/stretch-flag"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
